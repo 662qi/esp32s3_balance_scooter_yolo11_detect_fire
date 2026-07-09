@@ -9,5 +9,5 @@ balabce_scooterv4.1: This project serves as a preliminary implementation of a tw
 </p>
 
 <p style="font-size:12px">
-my_wifi_esp32cam_v3.2: A lightweight fire and smoke recognition program powered by YOLO11-Nano, adopting a dual-thread decoupling architecture: an independent background thread continuously fetches frames from remote HTTP camera, while the main thread executes model inference and visualization to prevent network IO blocking detection logic.(基于 YOLO11-Nano 轻量化模型实现远程摄像头火情实时检测，采用双线程分离架构，独立线程持续拉取 HTTP 摄像头图像，主线程负责目标推理与画面渲染，避免网络 IO 阻塞推理流程。)
+my_wifi_esp32cam_v3.2: A lightweight fire and smoke recognition program powered by YOLO11-Nano, designed for ESP32-S3 camera hardware. It adopts a dual-thread decoupling architecture: an independent background thread continuously fetches frames from the HTTP video stream output by ESP32-S3, while the main thread executes model inference and visualization to prevent network IO blocking detection logic.(基于 YOLO11-Nano 轻量化模型、适配 ESP32-S3 摄像头硬件实现远程火情烟雾实时检测。程序采用双线程解耦架构：独立后台线程持续拉取 ESP32-S3 输出的 HTTP 视频流图像，主线程执行模型推理与画面渲染，避免网络 IO 阻塞检测流程。)
 </p>
