@@ -5,7 +5,13 @@ Based on ESP32-S3 & R5 Pro self-balancing vehicle, dual-loop PID balance and ind
 </p>
 
 <p style="font-size:12px">
-balabce_scooterv4.1: This project serves as a preliminary implementation of a two-wheeled self-balancing vehicle, where core control functions are basically realized, and multiple aspects of the scheme remain to be optimized.(本项目为两轮自平衡小车基础实现版本，完成核心控制功能的初步开发，整体方案仍存在优化空间。)
+balabce_scooterv4.1: This project serves as a preliminary implementation of a two-wheeled self-balancing vehicle, where core control functions are basically realized, and multiple aspects of the scheme remain to be optimized.
+  (本项目为两轮自平衡小车基础实现版本，完成核心控制功能的初步开发，整体方案仍存在优化空间。)
+</p>
+
+<p style="font-size:12px">
+balance_scooter_v4.3: Upgraded firmware for ESP32-S3 two-wheeled self-balancing robot. The project adopts FreeRTOS multi-task dual-core scheduling. Real-time balance control runs independently on Core1, and human-computer interaction logic runs on Core0, which effectively eliminates the timing jitter caused by screen refresh and Bluetooth communication in the single-core version. Supports wireless control via BLE mini-program, cascaded angle-speed differential steering PID algorithm.
+(balance_scooter_v4.3：ESP32-S3两轮自平衡机器人升级固件。项目采用FreeRTOS多任务双核调度方案，实时平衡控制独立运行于Core1，人机交互逻辑运行在Core0，有效消除单核版本中屏幕刷新、蓝牙通信带来的控制时序抖动；支持微信BLE小程序无线操控，搭载串级角度-速度差速转向PID算法。)
 </p>
 
 <p style="font-size:12px">
